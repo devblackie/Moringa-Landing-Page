@@ -11,13 +11,28 @@ a {
 }
 .btn {
     display: inline-block;
-    padding: 0,7px,0,7px;
+    padding: 3px;
     text-align: center;
     background: #EC4067;
     color: white;
     border-radius: 3px;
     border: 5px solid #EC4067;
     cursor: pointer;
+}
+#btn {
+    box-shadow: 0 0 7px #EC4067;
+
+}
+#btn1 {
+    background: white;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+    width: 20%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0;
 }
 /*Header section*/
 .header {
@@ -27,8 +42,7 @@ a {
 }
 .header .navigation .resources {
     font-weight: 200;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
     color: black;
     font-weight: 200;
 }
@@ -50,7 +64,40 @@ a {
 .header .navigation .heading {
 
 }
+.body {
+    margin: 3px;
+    border: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
 /*home section */
 .home {
     display: flex;
+    flex-wrap: nowrap;
+    border: 3px;
+    padding: 3px;
+}
+.home .content {
+    text-align: left;
+    align-items: center;
+    border: 4px;
+    padding: 4px 10px 4px 7px;
+}
+.home .image {
+    overflow: hidden;
+}
+.home .image img {
+    width: 60%;
+    object-fit: cover;
+}
+.home .content .text {
+    font-weight: 100;
+}
+.footer {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: gray;
+    align-items: center;
+    height: 15%;
+    padding-top: 26px;
 }
