@@ -65,6 +65,7 @@ a {
 
 }
 .body {
+    box-sizing: border-box;
     margin: 3px;
     border: 7px;
     padding-left: 4px;
@@ -93,6 +94,7 @@ a {
 .home .content .text {
     font-weight: 100;
 }
+
 /*project */
 
 
