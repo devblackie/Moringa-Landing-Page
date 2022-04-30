@@ -9,3 +9,9 @@
 a {
     text-decoration: none;
 }
+.btn {
+    display: inline-block;
+    text-align: center;
+    background: #EC4067;
+    color: white;
+}
