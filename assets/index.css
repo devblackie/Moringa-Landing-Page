@@ -11,7 +11,46 @@ a {
 }
 .btn {
     display: inline-block;
+    padding: 0,7px,0,7px;
     text-align: center;
     background: #EC4067;
     color: white;
+    border-radius: 3px;
+    border: 5px solid #EC4067;
+    cursor: pointer;
+}
+/*Header section*/
+.header {
+    border: 2px solid white;
+    padding: auto;
+    align-items: flex-end;
+}
+.header .navigation .resources {
+    font-weight: 200;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 200;
+}
+.header .navigation {
+    display: flex;
+}
+.header .navigation .resources a:link {
+    color: black;
+}
+.header .navigation .resources a:visited {
+    color: black;
+}
+.header .navigation .resources .btn:hover {
+    color: black;
+}
+.navigation {
+    display: inline;
+}
+.header .navigation .heading {
+
+}
+/*home section */
+.home {
+    display: flex;
 }
