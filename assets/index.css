@@ -2,6 +2,7 @@
     margin: 5px;
     padding: 0px;
     border: 10px;
+    font-family: 'Nunito', sans-serif;
 }
 #Halt {
     color: #EC4067;
@@ -119,7 +120,7 @@ a {
 .footer {
     text-align: center;
     box-sizing: border-box;
-    background-color: gray;
+    background-color: #E5E4E2;
     align-items: center;
     height: 15%;
     padding-top: 26px;
