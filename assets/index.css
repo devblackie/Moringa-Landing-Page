@@ -1,7 +1,7 @@
 * {
     margin: 10px;
     padding: 0px;
-    border: 10px;
+    border: 5px;
     font-family: 'Nunito', sans-serif;
 }
 #Halt {
@@ -9,6 +9,9 @@
 }
 a {
     text-decoration: none;
+}
+a:hover {
+    color: black;
 }
 .btn {
     display: inline-block;
@@ -57,9 +60,6 @@ a {
 .header .navigation .resources a:visited {
     color: black;
 }
-.header .navigation .resources .btn:hover {
-    color: black;
-}
 .navigation {
     display: inline;
 }
@@ -67,36 +67,32 @@ a {
 
 }
 .body {
-    margin: 10px;
-    border: 10px;
+    margin: 0px;
+    border: 0px;
     padding-left: 0;
-    padding-right: 15px;
+    padding-right: 0px;
 }
 /*home section */
 .body .home {
-
     display: flex;
-    flex-wrap: nowrap;
+    overflow: hidden;
     border: 10px;
     padding: 10px;
     margin: 10px;
-    justify-content: space-between;
 
     
 }
 .body .home .content {
     text-align: left;
-    border: 20px;
-    margin: 20px;
     padding: 0;
     overflow: hidden;
-    width: 60%;
+    width: 100%;
 }
 .body .home .image {
     overflow: hidden;
 }
 .body .home .image img {
-    width: 60%;
+    width: 100%;
     object-fit: cover;
 }
 .body .home .content .text {
@@ -104,11 +100,7 @@ a {
 }
 
 /*stories section*/
-.body .shape {
-    text-align: left;
-    display: inline;
-}
-.body .shape #halo {
+.body #halo {
     background: #E5E4E2;
 }
 ul {
@@ -122,11 +114,6 @@ ul li {
     display: flex;
     justify-content: space-between;
 
-}
-.picture-name {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
 }
 
 /* project*/
@@ -157,8 +144,8 @@ ul li {
     box-sizing: border-box;
     background-color: #E5E4E2;
     align-items: center;
-    height: 15%;
-    padding-top: 18px;
+    height: 20%;
+    padding-top: 20px;
 }
 .footer p {
     font-size: medium;
@@ -166,6 +153,17 @@ ul li {
 .footer p i{
     color: maroon;
 }
+.mini-head {
+    word-spacing: 1px;
+    letter-spacing: -1px;
+    word-break: keep-all;
+}
+#raft {
+    text-align: justify;
+    font-size: medium;
+    font-weight: 300;
+}
+
 
 /* technical mentors */
 .tm {
@@ -174,7 +172,17 @@ ul li {
     object-fit: cover;
 
 }
+#head {
+    font-weight: 300;
+}
 #tm {
-    width: 288px;
+    width: 260px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid white;
+    object-fit: cover;
 }
 
