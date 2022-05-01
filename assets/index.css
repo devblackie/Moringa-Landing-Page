@@ -1,5 +1,5 @@
 * {
-    margin: 5px;
+    margin: 10px;
     padding: 0px;
     border: 10px;
     font-family: 'Nunito', sans-serif;
@@ -39,7 +39,7 @@ a {
 .header {
     border: 2px solid white;
     padding: auto;
-    align-items: flex-end;
+    align-items: flex;
 }
 .header .navigation .resources {
     font-weight: 200;
@@ -49,6 +49,7 @@ a {
 }
 .header .navigation {
     display: flex;
+    justify-content: space-between;
 }
 .header .navigation .resources a:link {
     color: black;
@@ -66,52 +67,86 @@ a {
 
 }
 .body {
-    box-sizing: border-box;
-    margin: 3px;
-    border: 7px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin: 10px;
+    border: 10px;
+    padding-left: 0;
+    padding-right: 15px;
 }
 /*home section */
-.home {
+.body .home {
+
     display: flex;
     flex-wrap: nowrap;
-    border: 3px;
-    padding: 3px;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+
+    
 }
-.home .content {
+.body .home .content {
     text-align: left;
-    align-items: center;
-    border: 4px;
-    padding: 4px 10px 4px 7px;
+    border: 20px;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    width: 60%;
 }
-.home .image {
+.body .home .image {
     overflow: hidden;
 }
-.home .image img {
+.body .home .image img {
     width: 60%;
     object-fit: cover;
 }
-.home .content .text {
+.body .home .content .text {
     font-weight: 100;
 }
 
-/*project */
+/*stories section*/
+.body .shape {
+    text-align: left;
+    display: inline;
+}
+.body .shape #halo {
+    background: #E5E4E2;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline;
+}
+/*technical mentors */
+.profiles {
+    display: flex;
+    justify-content: space-between;
 
+}
+.picture-name {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
 
+/* project*/
+.project .home .content .image {
+    justify-content: space-between;
+    display: flex;
+}
 
 
 
 
 /* persuance section*/
 .persue {
-    box-sizing: border-box;
+    font-size: larger;
 }
 .persue h1 {
-    font-weight: 200;
+    font-weight: 300;
 }
 .persue p {
-    font-size: large;
+    font-weight: 400;
 }
 
 
@@ -123,5 +158,23 @@ a {
     background-color: #E5E4E2;
     align-items: center;
     height: 15%;
-    padding-top: 26px;
+    padding-top: 18px;
 }
+.footer p {
+    font-size: medium;
+}
+.footer p i{
+    color: maroon;
+}
+
+/* technical mentors */
+.tm {
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+#tm {
+    width: 288px;
+}
+
